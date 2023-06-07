@@ -1,0 +1,34 @@
+.containerMenu {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.menu.close {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    transform: translateX(-100%); /* Di chuyển menu ra khỏi viewport */
+}
+.menu.open {
+    transform: translateX(0);   
+}
+.menu {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    text-align: left;
+    padding: 20px;
+    z-index: 99;
+    position: absolute;
+    margin-top: 30px;
+}

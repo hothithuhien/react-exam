@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.todoApp {
+  margin-left: 500px;
+  margin-top: 30px;
+  height: 500px;
+  width: 220px;
+
+  
+}
+.todoApp input {
+  height: 30px;
+  border: #61dafb 2px solid;
+}
+.todoApp button {
+  height: 38.5px;
+  background: #61dafb;
+  border: white 2px solid;
+}
+
+.todoApp h3 {
+  color: #61dafb;
+}
+
+.listTask {
+  width: 206px;
+  height: 25px ;
+  border: solid 2px #61dafb;
+  margin-top: 5px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+/* @import url(./Exam/TodoApp1.css); */
+@import url(./Exam/Menu.css);
+.showbutton button {
+  position: fixed;
+  border: 4px solid blueviolet;
+  background-color: aqua;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  cursor: pointer;
+  
+}
+.showbutton {
+  margin-left: 0px;
+  width: 30px;
+}
